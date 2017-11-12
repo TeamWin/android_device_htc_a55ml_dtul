@@ -17,6 +17,6 @@
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/omni/config/common.mk)
 
-$(call inherit-product, device/lenovo/aio_row/full_a55ml_dtul.mk)
+$(call inherit-product, device/htc/a55ml_dtul/full_a55ml_dtul.mk)
 
 PRODUCT_NAME := omni_a55ml_dtul
